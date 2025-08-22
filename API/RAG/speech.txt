@@ -1,0 +1,10 @@
+Power Pivot and the Data Model
+
+Power Pivot operates within a Data Model, where relationships are established and managed. This approach permits the creation of a PivotTable from multiple sources without physically merging them.
+
+Making use of the DAX formula language, Power Pivot handles intricate calculations on the data model, spanning time intelligence, rankings, percentiles, and more.
+
+A major advantage lies in Power Pivot’s ability to efficiently manage numerous data sources. It doesn’t necessitate storing a memory-intensive “Frankentable” and computes DAX measures as needed. However, mastering Power Pivot can prove challenging due to its steep learning curve, particularly when dealing with data sources not consolidated into a single table.
+
+On the sales_pp worksheet of ch_06.xlsx, I have created a Data Model consisting of the three sales data sources and loaded the results to a PivotTable. Now I am able to analyze and calculate based across all related tables, as shown in Figure 6-3.
+
